@@ -34,17 +34,15 @@ div.cabeca {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.486);
   margin: auto 20px;
   height: 20px;
+  font-size: 0.9em;
   text-align: center;
-  background-color: rgb(129, 129, 129);
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(75, 0, 0));
+  color: rgb(230, 230, 230);
 }
 
 div#objetivos {
   text-align: center;
   margin: auto 80px;
-}
-
-div > h3 {
-  text-align: center;
 }
 
 p {
@@ -56,20 +54,27 @@ span#duracao {
   font-size: 0.8em;
 }
 
-div#complementares {
-  margin-bottom: 150px;
-}
-
 footer {
-  color: rgb(0, 0, 0);
-  font-size: 0.8em;
-  background-color: rgb(167, 167, 167);
-  margin: auto 30px;
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(75, 0, 0));
+  color: rgb(209, 209, 209);
+  font-size: 0.9em;
+  height: 40px;
+  width: 80%;
+  margin: 150px auto 10px auto;
   border-radius: 10px 0px 10px 0px;
 }
 
+footer > p {
+  padding-top: 5px;
+}
+
 footer > p > a {
-  font-size: bold;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  color: rgb(233, 233, 233);
+}
+
+a:hover {
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
 }
