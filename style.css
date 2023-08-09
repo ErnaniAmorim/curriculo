@@ -7,20 +7,18 @@ body {
   text-align: center;
   margin: 65px auto 0px auto;
   padding-bottom: 0px;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255, 255, 255),
-    rgb(192, 192, 192)
-  );
+  background-image: linear-gradient(to bottom, #e1d8c4, #91897b);
 }
 
 h1 {
   font-size: 1.5em;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
 }
 
 header > div {
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-right: 20px;
 }
 
 header > div > p {
@@ -36,8 +34,8 @@ div.cabeca {
   height: 20px;
   font-size: 0.9em;
   text-align: center;
-  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(75, 0, 0));
-  color: rgb(230, 230, 230);
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(95, 0, 0));
+  color: #91897b;
 }
 
 div#objetivos {
@@ -48,6 +46,7 @@ div#objetivos {
 p {
   margin: 30px 10px;
   line-height: 2em;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.767);
 }
 
 span#duracao {
@@ -56,12 +55,13 @@ span#duracao {
 
 footer {
   background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(75, 0, 0));
-  color: rgb(209, 209, 209);
+  color: rgb(185, 185, 185);
   font-size: 0.7em;
   height: 40px;
   width: 80%;
   margin: 150px auto 10px auto;
   border-radius: 10px 0px 10px 0px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.568);
 }
 
 footer > p {
@@ -71,10 +71,9 @@ footer > p {
 footer > p > a {
   text-decoration: none;
   font-size: 1.1em;
-  color: rgb(233, 233, 233);
+  color: rgb(184, 184, 184);
 }
 
 a:hover {
-  font-size: 1.2em;
   color: rgb(255, 255, 255);
 }
